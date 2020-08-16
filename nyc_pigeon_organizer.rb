@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
   date.each do |key, value|
   value.each do |inner_key, names|
     names.each do |name|
+      if 
     
 binding.pry
  end
