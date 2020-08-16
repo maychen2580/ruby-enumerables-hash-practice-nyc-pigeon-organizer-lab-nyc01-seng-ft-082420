@@ -7,7 +7,11 @@ def nyc_pigeon_organizer(data)
   date.each do |key, value|
   value.each do |inner_key, names|
     names.each do |name|
-      if 
+      if !new_hash[name]
+        new_hash[name] = {}
+      end
+      if !new_hash[name][key]
+        new_hash[name][key]
     
 binding.pry
  end
